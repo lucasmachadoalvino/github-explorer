@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import logoImg from '../../assets/images/logo/logo.png';
+import logoImg from "../../assets/images/logo/logo.png";
 
 import {
   Container,
@@ -8,8 +8,8 @@ import {
   BackButton,
   Icon,
   BlankSpace,
-  SafeAreaViewIOS
-} from './styles';
+  SafeAreaViewIOS,
+} from "./styles";
 
 interface HeaderProps {
   goBack?: () => void;
@@ -29,14 +29,14 @@ export function Header({ goBack }: HeaderProps) {
           <BlankSpace />
         </Container>
       </SafeAreaViewIOS>
-    )
+    );
   }
 
   return (
     <SafeAreaViewIOS>
-      <Container style={{ justifyContent: 'center' }}>
+      <Container style={{ justifyContent: "center" }}>
         <Logo source={logoImg} />
       </Container>
     </SafeAreaViewIOS>
-  )
+  );
 }

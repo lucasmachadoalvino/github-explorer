@@ -1,6 +1,6 @@
-import { FlatList, FlatListProps } from 'react-native';
-import styled from 'styled-components/native';
-import { IssueProps } from '../../contexts/RepositoriesProvider';
+import { FlatList, FlatListProps } from "react-native";
+import styled from "styled-components/native";
+import { IssueProps } from "../../contexts/RepositoriesProvider";
 
 export const Container = styled.View`
   flex: 1;
